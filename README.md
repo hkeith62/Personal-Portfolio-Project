@@ -1,2 +1,2 @@
 # Personal-Portfolio-Project
-My personal portfolio website.
+This is my personal porfolio project.
