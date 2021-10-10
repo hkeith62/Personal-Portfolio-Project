@@ -6,15 +6,16 @@ class Header extends HTMLElement
 
     connectedCallback() {
         this.innerHTML = `
-          <div id="header"> 
-            <span id="logo" style="width:100px; height:40px;"></span>	
+          <div id="header">
+            <span id="logo" style="background-color:#094514; width:60px; height:41px; color:#69F483">KH</span>
  		      <div class="the-hamburger"><a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars fa-lg"></i></a></div>
                 <ul class="nav-container">
                   <li><a href="index.html">Home</a></li>
                   <li><a href="projects.html">Projects</a></li>
                   <li><a href="data-base.html">Database Diagrams</a></li>
                   <li><a href="unit-tests.html">API Unit Tests</a></li>
-                  <li><a href="about.html">About</a></li>  
+                  <li><a href="https://github.com/hkeith62?tab=repositories" target="_blank">GitHub</a></li>
+                  <li><a href="about.html">About</a></li>
                   <li><a href="resume.html">Resume</a></li>
                </ul>
           </div>`
