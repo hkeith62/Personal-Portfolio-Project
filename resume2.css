@@ -26,7 +26,6 @@ main {
 @media all and (max-width:670px) {
     main { margin:0 15px }
 }
-
 .wave {
     width:100vw;
     height:150px;
@@ -37,7 +36,6 @@ main {
     margin-bottom: 50px;
 
 }
-
 #one {
     height:180px;
     fill:  #1ff246;
@@ -167,7 +165,7 @@ main .hex {
     position:fixed;
 }
 
-#uno {
+#hex-one {
     border-radius:4px;
     border:none;
     background: #094514;
@@ -176,7 +174,7 @@ main .hex {
     left:30px;
 }
 
-#uno:before, #uno:after {
+#hex-one:before, #hex-one:after {
     margin-top:0;
 }
 
@@ -186,7 +184,7 @@ main .hex {
     background:inherit;
 }
 
-#dos {
+#hex-two {
     border-color: #094514;
     border-radius:3px;
     border-width:5px 0;
@@ -196,11 +194,11 @@ main .hex {
     transform:rotate(7deg);
 }
 
-#dos:before, #dos:after {
+#hex-two:before, #hex-two:after {
     margin-top:-5px;
 }
 
-#tres { display:none }
+#hex-three { display:none }
 
 #bg {
 /*     z-index:100; */

@@ -35,14 +35,14 @@ class Footer extends HTMLElement
                           <div class="form-body theme-blue">
                               <div class="section">
                                   <label>
-                                      <textarea class="gui-textarea" id="comment" name="comment" placeholder="Enter Your Comments..."></textarea>
+                                      <textarea class="comment-textarea" id="comment" name="comment" placeholder="Enter Your Comments..."></textarea>
                                       <span class="field-icon"></span>
                                   </label>
                               </div><!-- end section -->
                           </div><!-- end .form-body section -->
 
                           <div class="form-footer">
-                              <button type="submit" class="button btn-blue">Submit Comments</button>
+                              <button type="submit" class="comment-btn">Submit Comments</button>
                           </div><!-- end .form-footer section -->
                       </form>
 

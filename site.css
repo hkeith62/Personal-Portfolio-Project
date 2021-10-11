@@ -42,6 +42,17 @@ body {
 .the-hamburger a:hover {
     color: #69F483;
 }
+.app-header {
+	 margin-left: 450px;
+	 margin-top: 140px;
+}
+#great-image {
+	margin-top: -70px;
+	margin-left: 20px;
+	border: 1px solid gray;
+	width: 400px;
+	height:416px;
+}
 /* Navigation styling starts here. */
 .nav-container {
     max-width: 100%;
@@ -53,7 +64,7 @@ body {
 }
 .nav-container li {
     display: inline-block;
-    padding: 20px 15px;  /* Spreads (li) nav menu links and centers them horizontally. */
+    padding: 20px 20px;  /* Spreads (li) nav menu links and centers them horizontally. */
 }
 .nav-container li a {
     color: white;
@@ -66,7 +77,7 @@ body {
 .nav-container li a:hover {
     color: #69F483;
     text-decoration: none;
-    border-bottom: 3px solid #eefdf1;
+    border-bottom: 3px solid #1ff246; 
 }
 .nav-container li a:active {
     color: #F7E154;
@@ -77,6 +88,7 @@ body {
 /* End navigation. */
 
 /*Start content container */
+
 .content-container {
     margin: auto;
 }
@@ -227,13 +239,14 @@ body {
     display: inline-block;
     padding: 10px 25px;
     color: black;
-    background-color: #ddd;
+    background-color: #69F483;  
     text-align: center;
     cursor: pointer;
+	border-radius: 3px;
   }
 
   .hero-text button:hover {
-    background-color: #555;
+    background-color:#094514; 
     color: white;
   }
 #content {
@@ -243,216 +256,35 @@ body {
 
   .button {
 
-        background-color:   #69F483;
+        background-color: #69F483;
         border: none;
         padding: 10px 15px;
         border-radius: 3px;
       }
-      /* @form header themes
------------------------------------- */
-.smart-forms .header-blue {
-	background-color:#1ff246;
-	border-top:1px solid #094514;
-	border-bottom:5px solid #094514;
+ 
+/* comment button */
+.comment-btn {
+	border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 10px 10px;
+    color: #094514;  
+    background-color: #69F483;  
+    text-align: center;
+    cursor: pointer;
+	border-radius: 3px; 
+}	 
+.comment-btn:hover {
+	background-color: #1ff246;
+    color: #094514;  
 }
-
-
-
-/* @star rating
-------------------------------------------------- */
-.smart-forms .theme-blue .rating:hover .rating-star:hover,
-.smart-forms .theme-blue .rating:hover .rating-star:hover ~ .rating-star,
-.smart-forms .theme-blue .rating-input:checked ~ .rating-star { color: rgba(105, 244, 131, .4);}
-.smart-forms .theme-blue .rating-star,
-.smart-forms .theme-blue .rating:hover .rating-star {	color: #1ff246;}
-
-
-/* @checkbox + radio blue
---------------------------------------------------- */
-.smart-forms .option-blue input:hover + .checkbox,
-.smart-forms .option-blue input:hover + .radio{ border-color: #5dade2; }
-.smart-forms .option-blue input:checked + .checkbox,
-.smart-forms .option-blue input:focus + .checkbox,
-.smart-forms .option-blue input:checked + .radio,
-.smart-forms .option-blue input:focus + .radio{ border-color: #3498db; }
-.smart-forms .option-blue input:checked + .radio:before,
-.smart-forms .option-blue input:focus + .radio:before{  background: #3498db; }
-.smart-forms .option-blue input:checked + .checkbox:before,
-.smart-forms .option-blue input:focus + .checkbox:before{ border-color: #3498db; }
-
-/* @toggle-switch blue
---------------------------------------------- */
-.smart-forms .switch-blue > input:checked + .switch-label { background: #3498db; border-color: #3498db; }
-.smart-forms .switch-blue > input:checked + .switch-label:after { color:#3498db; }
-.smart-forms .switch-blue > input:checked:focus + .switch-label { background: #2c81ba; border-color: #2c81ba; }
-
-/* Smart Options
--------------------------------------------------------------- */
-.smart-forms .option > input:checked + .smart-option { background:#3498db; }
-.smart-forms .option > input:checked + .smart-option,
-.smart-forms input:checked + .smart-checkbox .iconc:before,
-.smart-forms .option > input:checked + .smart-option .iconc { border-color:#236896; }
-.smart-forms input:checked + .smart-radio .iconc:before { background:#236896; }
-
-
-
-/* @button blue
------------------------------------------------ */
-.smart-forms .btn-blue { background-color:#1ff246; }
-.smart-forms .btn-blue:hover,
-.smart-forms .btn-blue:focus{ background-color: #094514; }
-.smart-forms .btn-blue:active{ background-color: #fff; color: white; }
-.smart-forms .btn-blue,
-.smart-forms .btn-blue:hover,
-.smart-forms .btn-blue:focus,
-.smart-forms .btn-blue:active{ color: #094514; text-shadow: 0 1px rgba(0, 0, 0, 0.08);  }
-
-/* @datepicker overides
--------------------------------------------------- */
-.ui-datepicker { border:5px solid #3498db; }
-.ui-datepicker:before{
-	border-color:transparent transparent #3498db transparent;
-	border-color:rgba(255,255,255,0) rgba(255,255,255,0) #3498db rgba(255,255,255,0);
-}
-
-.gui-textarea {
+.comment-textarea {
     width:300px;
     height: 150px;
-}
-/* @form header themes
------------------------------------- */
-.smart-forms .header-blue {
-	background-color:#1ff246;
-	border-top:1px solid #094514;
-	border-bottom:5px solid #094514;
-}
+}  
 
-
-
-/* @star rating
-------------------------------------------------- */
-.smart-forms .theme-blue .rating:hover .rating-star:hover,
-.smart-forms .theme-blue .rating:hover .rating-star:hover ~ .rating-star,
-.smart-forms .theme-blue .rating-input:checked ~ .rating-star { color: rgba(105, 244, 131, .4);}
-.smart-forms .theme-blue .rating-star,
-.smart-forms .theme-blue .rating:hover .rating-star {	color: #1ff246;}
-
-
-/* @checkbox + radio blue
---------------------------------------------------- */
-.smart-forms .option-blue input:hover + .checkbox,
-.smart-forms .option-blue input:hover + .radio{ border-color: #5dade2; }
-.smart-forms .option-blue input:checked + .checkbox,
-.smart-forms .option-blue input:focus + .checkbox,
-.smart-forms .option-blue input:checked + .radio,
-.smart-forms .option-blue input:focus + .radio{ border-color: #3498db; }
-.smart-forms .option-blue input:checked + .radio:before,
-.smart-forms .option-blue input:focus + .radio:before{  background: #3498db; }
-.smart-forms .option-blue input:checked + .checkbox:before,
-.smart-forms .option-blue input:focus + .checkbox:before{ border-color: #3498db; }
-
-/* @toggle-switch blue
---------------------------------------------- */
-.smart-forms .switch-blue > input:checked + .switch-label { background: #3498db; border-color: #3498db; }
-.smart-forms .switch-blue > input:checked + .switch-label:after { color:#3498db; }
-.smart-forms .switch-blue > input:checked:focus + .switch-label { background: #2c81ba; border-color: #2c81ba; }
-
-/* Smart Options
--------------------------------------------------------------- */
-.smart-forms .option > input:checked + .smart-option { background:#3498db; }
-.smart-forms .option > input:checked + .smart-option,
-.smart-forms input:checked + .smart-checkbox .iconc:before,
-.smart-forms .option > input:checked + .smart-option .iconc { border-color:#236896; }
-.smart-forms input:checked + .smart-radio .iconc:before { background:#236896; }
-
-
-
-/* @button blue
------------------------------------------------ */
-.smart-forms .btn-blue { background-color:#1ff246; }
-.smart-forms .btn-blue:hover,
-.smart-forms .btn-blue:focus{ background-color: #094514; }
-.smart-forms .btn-blue:active{ background-color: #fff; color: white; }
-.smart-forms .btn-blue,
-.smart-forms .btn-blue:hover,
-.smart-forms .btn-blue:focus,
-.smart-forms .btn-blue:active{ color: #094514; text-shadow: 0 1px rgba(0, 0, 0, 0.08);  }
-
-/* @datepicker overides
--------------------------------------------------- */
-.ui-datepicker { border:5px solid #3498db; }
-.ui-datepicker:before{
-	border-color:transparent transparent #3498db transparent;
-	border-color:rgba(255,255,255,0) rgba(255,255,255,0) #3498db rgba(255,255,255,0);
-}
-
-/* @form header themes
------------------------------------- */
-.smart-forms .header-blue {
-	background-color:#1ff246;
-	border-top:1px solid #094514;
-	border-bottom:5px solid #094514;
-}
-
-
-
-/* @star rating
-------------------------------------------------- */
-.smart-forms .theme-blue .rating:hover .rating-star:hover,
-.smart-forms .theme-blue .rating:hover .rating-star:hover ~ .rating-star,
-.smart-forms .theme-blue .rating-input:checked ~ .rating-star { color: rgba(105, 244, 131, .4);}
-.smart-forms .theme-blue .rating-star,
-.smart-forms .theme-blue .rating:hover .rating-star {	color: #1ff246;}
-
-
-/* @checkbox + radio blue
---------------------------------------------------- */
-.smart-forms .option-blue input:hover + .checkbox,
-.smart-forms .option-blue input:hover + .radio{ border-color: #5dade2; }
-.smart-forms .option-blue input:checked + .checkbox,
-.smart-forms .option-blue input:focus + .checkbox,
-.smart-forms .option-blue input:checked + .radio,
-.smart-forms .option-blue input:focus + .radio{ border-color: #3498db; }
-.smart-forms .option-blue input:checked + .radio:before,
-.smart-forms .option-blue input:focus + .radio:before{  background: #3498db; }
-.smart-forms .option-blue input:checked + .checkbox:before,
-.smart-forms .option-blue input:focus + .checkbox:before{ border-color: #3498db; }
-
-/* @toggle-switch blue
---------------------------------------------- */
-.smart-forms .switch-blue > input:checked + .switch-label { background: #3498db; border-color: #3498db; }
-.smart-forms .switch-blue > input:checked + .switch-label:after { color:#3498db; }
-.smart-forms .switch-blue > input:checked:focus + .switch-label { background: #2c81ba; border-color: #2c81ba; }
-
-/* Smart Options
--------------------------------------------------------------- */
-.smart-forms .option > input:checked + .smart-option { background:#3498db; }
-.smart-forms .option > input:checked + .smart-option,
-.smart-forms input:checked + .smart-checkbox .iconc:before,
-.smart-forms .option > input:checked + .smart-option .iconc { border-color:#236896; }
-.smart-forms input:checked + .smart-radio .iconc:before { background:#236896; }
-
-
-
-/* @button blue
------------------------------------------------ */
-.smart-forms .btn-blue { background-color:#1ff246; }
-.smart-forms .btn-blue:hover,
-.smart-forms .btn-blue:focus{ background-color: #094514; }
-.smart-forms .btn-blue:active{ background-color: #fff; color: white; }
-.smart-forms .btn-blue,
-.smart-forms .btn-blue:hover,
-.smart-forms .btn-blue:focus,
-.smart-forms .btn-blue:active{ color: #094514; text-shadow: 0 1px rgba(0, 0, 0, 0.08);  }
-
-/* @datepicker overides
--------------------------------------------------- */
-.ui-datepicker { border:5px solid #3498db; }
-.ui-datepicker:before{
-	border-color:transparent transparent #3498db transparent;
-	border-color:rgba(255,255,255,0) rgba(255,255,255,0) #3498db rgba(255,255,255,0);
-}
-
+ 
+ 
 
 
 

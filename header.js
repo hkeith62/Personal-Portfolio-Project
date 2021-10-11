@@ -14,7 +14,6 @@ class Header extends HTMLElement
                   <li><a href="projects.html">Projects</a></li>
                   <li><a href="data-base.html">Database Diagrams</a></li>
                   <li><a href="unit-tests.html">API Unit Tests</a></li>
-                  <li><a href="https://github.com/hkeith62?tab=repositories" target="_blank">GitHub</a></li>
                   <li><a href="about.html">About</a></li>
                   <li><a href="resume.html">Resume</a></li>
                </ul>
