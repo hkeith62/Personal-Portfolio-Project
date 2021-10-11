@@ -257,11 +257,12 @@ body {
   .button {
 
         background-color: #69F483;
-        border: none;
         padding: 10px 15px;
         border-radius: 3px;
       }
- 
+ .button:hover {
+	  background-color: #1ff246; 
+ }
 /* comment button */
 .comment-btn {
 	border: none;
