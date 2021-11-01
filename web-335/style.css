@@ -1,3 +1,11 @@
+/**
+    Title: WEB 335 – Intro to NoSQL
+    Author: Professor Krasso
+    Date: 10/17/2021
+    Modified By: Professor  P. Itskovich, Keith Hall 
+    Description: This is the style sheet for the image gallery, web-420.   
+*/
+/* gallery styling */
 div.gallery {
   margin: 5px;
   border: 1px solid #ccc;
