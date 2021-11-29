@@ -26,27 +26,204 @@
     </head>
 <body>
 <header-component></header-component> 
- <div id="container">
-    <div class="content-container" style="width:60%; height:580px"> <!--Adjust width and height to change grid box size. -->
-        <div class="card" style="width:50%; height:80px;margin-top:155px;margin-left:190px; background-color:#69F483; color:#094514; border:3px solid #094514">
-        <h1 id="app-header" style="margin-top:-45px">API Unit Tests</h1>
+<div id="container">
+    <div class="content-container" style="width:60%; height:1280px"> <!--Adjust width and height to change grid box size. -->
+        <div class="card12" style="width:50%;margin-top:100px;margin-left:198px;margin-bottom:100px; background-color:#69F483; color:#094514; border:3px solid #094514">
+            <h1 id="app-header" style="margin-top:-45px">API Unit Tests</h1>
         </div>
-		<br>
+		    <h2 class= "sub-heading">Composer API</h2>
+		    <br>
+        <!-- Modals -->
         <div class="grid-container">
-
-            <div class="card">Project 1</div>
-            <div class="card">Project 2</div>
-            <div class="card">Project 3</div>
-            <div class="card">Project 4</div>
-            <div class="card">Project 5</div>
-            <div class="card">Project 6</div>
-            <div class="card">Project 7</div>
-            <div class="card">Project 8</div>
-            <div class="card">Project 9</div>
-            </div>
-
+	        <div class= "card" style="width:100%;max-width:300px"><h4>Swagger</h4><p>API test unit test using Swagger on Node.js.</p>
+	            <img id="myImg" src="images/swagger-docs.png" alt="Image of API test using swagger-docs and swagger-ui">
+                <div id= "myModal" class= "modal">
+			        <span class="close">&times;</span>
+			        <img class="modal-content" id="img01">
+                <div id="caption"></div>
+                </div>
+		    </div>
+	        <div class= "card" style="width:100%;max-width:300px"><h4>SoapUI</h4><p>API unit test using SoapUI 5.6.0 Open Source.</p>
+	            <img id="myImgTwo" src="images/soap_one.png" alt="Image of API test using SoapUI Open Source.">
+                <div id= "myModalTwo" class= "modalTwo"> 
+			        <span class="closeTwo">&times;</span>
+			        <img class="modal-content-two" id="img02">
+                <div id="captionTwo"></div>
+                </div>
+		    </div>
+		    <div class= "card" style="width:100%;max-width:300px"><h4>SoapUI</h4><p>API unit test using SoapUI 5.6.0 Open Source.</p>
+	           <img id="myImgThree" src="images/soap_two.png" alt="Image of API test using SoapUI Open Source.">
+               <div id= "myModalThree" class= "modalThree"> 
+			        <span class="closeThree">&times;</span>
+			        <img class="modal-content-three" id="img03">
+                <div id="captionThree"></div>
+                </div>
+		    </div>
+		    <!-- Second Row of Modals -->
+		    <div class= "card" style="width:100%;max-width:300px"><h4>Swagger</h4><p>API test unit test using Swagger on Node.js.</p>
+	            <img id="myImgFour" src="images/swaggerDoc_two.png" alt="Image of API test using swagger-docs and swagger-ui">
+                <div id= "myModalFour" class= "modalFour">
+			       <span class="closeFour">&times;</span>
+			       <img class="modal-content-four" id="img04">
+                <div id="captionFour"></div>
+                </div>
+		    </div>
+	        <div class= "card" style="width:100%;max-width:300px"><h4>SoapUI</h4><p>API unit test using SoapUI 5.6.0 Open Source.</p>
+	            <img id="myImgFive" src="images/soap_three.png" alt="Image of API test using SoapUI Open Source.">
+                <div id= "myModalFive" class= "modalFive"> 
+			        <span class="closeFive">&times;</span>
+			        <img class="modal-content-five" id="img05">
+                <div id="captionFive"></div>
+                </div>
+		    </div>
+		    <div class= "card" style="width:100%;max-width:300px"><h4>SoapUI</h4><p>API unit test using SoapUI 5.6.0 Open Source.</p>
+	            <img id="myImgSix" src="images/soap_four.png" alt="Image of API test using SoapUI Open Source.">
+                <div id= "myModalSix" class= "modalSix"> 
+			        <span class="closeSix">&times;</span>
+			        <img class="modal-content-six" id="img06">
+                <div id="captionSix"></div>
+                </div>
+		    </div>
+		</div>
     </div>
 </div>
 <footer-component></footer-component>
+<script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById("myImg");
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+  modal.style.display = "none";
+}
+
+// Second Modal
+
+//Get the modal
+var twoModal = document.getElementById("myModalTwo");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var imgTwo = document.getElementById("myImgTwo");
+var modalImgTwo = document.getElementById("img02");
+var captionTextTwo = document.getElementById("captionTwo");
+imgTwo.onclick = function(){
+  twoModal.style.display = "block";
+  modalImgTwo.src = this.src;
+  captionTextTwo.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("closeTwo")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+  twoModal.style.display = "none";
+}
+
+// Third Modal
+
+//Get the modal
+var threeModal = document.getElementById("myModalThree");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var imgThree = document.getElementById("myImgThree");
+var modalImgThree = document.getElementById("img03");
+var captionTextThree = document.getElementById("captionThree");
+imgThree.onclick = function(){
+  threeModal.style.display = "block";
+  modalImgThree.src = this.src;
+  captionTextThree.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("closeThree")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+  threeModal.style.display = "none";
+}
+
+//Fourth Modal
+
+//Get the modal
+var fourModal = document.getElementById("myModalFour");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var imgFour = document.getElementById("myImgFour");
+var modalImgFour = document.getElementById("img04");
+var captionTextFour = document.getElementById("captionFour");
+imgFour.onclick = function(){
+  fourModal.style.display = "block";
+  modalImgFour.src = this.src;
+  captionTextTFour.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("closeFour")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+  fourModal.style.display = "none";
+}
+
+// Fifth Modal
+
+//Get the modal
+var fiveModal = document.getElementById("myModalFive");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var imgFive = document.getElementById("myImgFive");
+var modalImgFive = document.getElementById("img05");
+var captionTextFive = document.getElementById("captionFive");
+imgFive.onclick = function(){
+  fiveModal.style.display = "block";
+  modalImgFive.src = this.src;
+  captionTextFive.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("closeFive")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+  fiveModal.style.display = "none";
+}
+
+// Sixth Modal
+
+//Get the modal
+var sixModal = document.getElementById("myModalSix");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var imgSix = document.getElementById("myImgSix");
+var modalImgSix = document.getElementById("img06");
+var captionTextSix = document.getElementById("captionSix");
+imgSix.onclick = function(){
+  sixModal.style.display = "block";
+  modalImgSix.src = this.src;
+  captionTextSix.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("closeSix")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+  sixModal.style.display = "none";
+}
+</script>
+
 </body>
 </html>
