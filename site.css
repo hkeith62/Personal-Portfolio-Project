@@ -24,7 +24,7 @@ body {
 	margin-top: 0px;
 }
 #container {
-    margin-top: -60px;
+    margin-top: -30px; /*Adjust the entire page contents */
 }
 #header {
 	width: 1450px;
@@ -150,7 +150,7 @@ body {
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 #card-composer {
-	width: 60%;
+  width: 60%;
   padding: 5px;
   transition: transform .2s;
   width: 200px;
@@ -163,12 +163,7 @@ body {
   transform: scale(2.5); 
 }
 /* Grid image styling */
-#myImg {
-  border-radius: 5px;
-  cursor: pointer;
-  transition: 0.3s;
-}
-#myImg:hover {opacity: 0.7;}
+
 /* Footer styling starts here. */
 .divider {
 	width: 1450px;
@@ -354,7 +349,67 @@ body {
   cursor: pointer;
   transition: 0.3s;
 }
-/* The Modal (background) */
+#myImgSeven {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#myImgEight {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#myImgNine {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#myImgTen {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#myImgEleven {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#myImgTwelve {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#myImgThirteen {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#myImgFourteen {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#myImgFifteen {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#myImgSixteen {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#myImgSeventeen {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#myImgEighteen {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+/* The Modals (background) */
 .modal {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
@@ -433,6 +488,162 @@ body {
   background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
 }
+.modalSeven {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+.modalEight {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+.modalNine {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+.modalTen {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+.modalEleven{
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+.modalTwelve {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+.modalThirteen {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+.modalFourteen {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+.modalFifteen {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+.modalSixteen {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+.modalSeventeen {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+.modalEighteen {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
 /* Modal Content (image) */
 .modal-content {
   margin: auto;
@@ -465,6 +676,78 @@ body {
   max-width: 900px;
 }
 .modal-content-six {
+  margin: auto;
+  display: block;
+  width: 90%;
+  max-width: 900px;
+}
+.modal-content-seven {
+  margin: auto;
+  display: block;
+  width: 90%;
+  max-width: 900px;
+}
+.modal-content-eight {
+  margin: auto;
+  display: block;
+  width: 90%;
+  max-width: 900px;
+}
+.modal-content-nine {
+  margin: auto;
+  display: block;
+  width: 90%;
+  max-width: 900px;
+}
+.modal-content-ten {
+  margin: auto;
+  display: block;
+  width: 90%;
+  max-width: 900px;
+}
+.modal-content-eleven {
+  margin: auto;
+  display: block;
+  width: 90%;
+  max-width: 900px;
+}
+.modal-content-twelve {
+  margin: auto;
+  display: block;
+  width: 90%;
+  max-width: 900px;
+}
+.modal-content-thirteen {
+  margin: auto;
+  display: block;
+  width: 90%;
+  max-width: 900px;
+}
+.modal-content-fourteen {
+  margin: auto;
+  display: block;
+  width: 90%;
+  max-width: 900px;
+}
+.modal-content-fifteen {
+  margin: auto;
+  display: block;
+  width: 90%;
+  max-width: 900px;
+}
+.modal-content-sixteen {
+  margin: auto;
+  display: block;
+  width: 90%;
+  max-width: 900px;
+}
+.modal-content-seventeen {
+  margin: auto;
+  display: block;
+  width: 90%;
+  max-width: 900px;
+}
+.modal-content-eighteen {
   margin: auto;
   display: block;
   width: 90%;
@@ -531,6 +814,126 @@ body {
   padding: 10px 0;
   height: 150px;
 }
+#captionSeven {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+#captionEight {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+#captionNine {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+#captionTen {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+#captionEleven {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+#captionTwelve {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+#captionThirteen {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+#captionFourteen {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+#captionFifteen {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+#captionSixteen {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+#captionSeventeen {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+#captionEighteen {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
 /* Add Animation */
 .modal-content, #caption {  
   -webkit-animation-name: zoom;
@@ -563,6 +966,78 @@ body {
   animation-duration: 0.6s;
 }
 .modal-content-six, #captionSix {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+.modal-content-seven, #captionSeven {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+.modal-content-eight, #captionEight {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+.modal-content-nine, #captionNine {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+.modal-content-ten, #captionTen {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+.modal-content-eleven, #captionEleven {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+.modal-content-twelve, #captionTwelve {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+.modal-content-thirteen, #captionThirteen {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+.modal-content-fourteen, #captionFourteen {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+.modal-content-fifteen, #captionFifteen {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+.modal-content-sixteen, #captionSixteen {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+.modal-content-seventeen, #captionSixteen {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+.modal-content-eighteen, #captionSixteen {  
   -webkit-animation-name: zoom;
   -webkit-animation-duration: 0.6s;
   animation-name: zoom;
@@ -659,14 +1134,189 @@ body {
   text-decoration: none;
   cursor: pointer;
 }
+.closeSeven {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.closeSeven:hover,
+.closeSeven:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+.closeEight {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.closeEight:hover,
+.closeEight:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+.closeNine {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.closeNine:hover,
+.closeNine:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+.closeTen {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.closeTen:hover,
+.closeTen:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+.closeEleven {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.closeEleven:hover,
+.closeEleven:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+.closeTwelve {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.closeTwelve:hover,
+.closeTwelve:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+.closeThirteen {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.closeThirteen:hover,
+.closeThirteen:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+.closeFourteen {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.closeFourteen:hover,
+.closeFourteen:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+.closeFifteen {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.closeFifteen:hover,
+.closeFifteen:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+.closeSixteen {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.closeSixteen:hover,
+.closeSixteen:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+.closeSeventeen {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.closeSeventeen:hover,
+.closeSeventeen:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+.closeEighteen {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.closeEighteen:hover,
+.closeEighteen:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
 @-webkit-keyframes zoom {
   from {-webkit-transform:scale(0)} 
   to {-webkit-transform:scale(1)}
-}
-
-@keyframes zoom {
-  from {transform:scale(0)} 
-  to {transform:scale(1)}
 }
 /* 100% Image Width on Smaller Screens */
 @media only screen and (max-width: 700px){
@@ -701,8 +1351,69 @@ body {
     width: 100%;
   }
 }
+@media only screen and (max-width: 700px){
+  .modal-content-seven {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 700px){
+  .modal-content-eight {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 700px){
+  .modal-content-nine {
+    width: 100%;
+  }
+}
 
- 
+@media only screen and (max-width: 700px){
+  .modal-content-ten {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 700px){
+  .modal-content-eleven {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 700px){
+  .modal-content-twelve {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 700px){
+  .modal-content-thirteen {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 700px){
+  .modal-content-fourteen {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 700px){
+  .modal-content-fifteen {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 700px){
+  .modal-content-sixteen {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 700px){
+  .modal-content-seventeen {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 700px){
+  .modal-content-eighteen {
+    width: 100%;
+  }
+}
+
+
  
  
  
