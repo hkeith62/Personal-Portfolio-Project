@@ -24,7 +24,7 @@ body {
 	margin-top: 0px;
 }
 #container {
-    margin-top: -30px; /*Adjust the entire page contents */
+    margin-top: -60px; /*Adjust the entire page contents */
 }
 #header {
 	width: 1450px;
@@ -55,7 +55,7 @@ body {
     color: #69F483;
 }
 .app-header {
-	 margin-left: 450px; 
+	 margin-left: 450px;
 	 margin-top: 140px;
 }
 #great-image {
@@ -89,7 +89,7 @@ body {
 .nav-container li a:hover {
     color: #69F483;
     text-decoration: none;
-    border-bottom: 3px solid #1ff246; 
+    border-bottom: 3px solid #1ff246;
 }
 .nav-container li a:active {
     color: #F7E154;
@@ -160,7 +160,7 @@ body {
 #card-composer:hover {
   -ms-transform: scale(2.5); /* IE 9 */
   -webkit-transform: scale(2.5); /* Safari 3-8 */
-  transform: scale(2.5); 
+  transform: scale(2.5);
 }
 /* Grid image styling */
 
@@ -275,14 +275,14 @@ body {
     display: inline-block;
     padding: 10px 25px;
     color: black;
-    background-color: #69F483;  
+    background-color: #69F483;
     text-align: center;
     cursor: pointer;
 	border-radius: 3px;
   }
 
   .hero-text button:hover {
-    background-color:#094514; 
+    background-color:#094514;
     color: white;
   }
 #content {
@@ -297,7 +297,7 @@ body {
         border-radius: 3px;
       }
  .button:hover {
-	  background-color: #1ff246; 
+	  background-color: #1ff246;
  }
 /* comment button */
 .comment-btn {
@@ -305,20 +305,20 @@ body {
     outline: 0;
     display: inline-block;
     padding: 10px 10px;
-    color: #094514;  
-    background-color: #69F483;  
+    color: #094514;
+    background-color: #69F483;
     text-align: center;
     cursor: pointer;
-	border-radius: 3px; 
-}	 
+	border-radius: 3px;
+}
 .comment-btn:hover {
 	background-color: #1ff246;
-    color: #094514;  
+    color: #094514;
 }
 .comment-textarea {
     width:300px;
     height: 150px;
-}  
+}
 #myImg {
   border-radius: 5px;
   cursor: pointer;
@@ -935,109 +935,109 @@ body {
   height: 150px;
 }
 /* Add Animation */
-.modal-content, #caption {  
+.modal-content, #caption {
   -webkit-animation-name: zoom;
   -webkit-animation-duration: 0.6s;
   animation-name: zoom;
   animation-duration: 0.6s;
 }
-.modal-content-two, #captionTwo {  
+.modal-content-two, #captionTwo {
   -webkit-animation-name: zoom;
   -webkit-animation-duration: 0.6s;
   animation-name: zoom;
   animation-duration: 0.6s;
 }
-.modal-content-three, #captionThree {  
+.modal-content-three, #captionThree {
   -webkit-animation-name: zoom;
   -webkit-animation-duration: 0.6s;
   animation-name: zoom;
   animation-duration: 0.6s;
 }
-.modal-content-four, #captionFour {  
+.modal-content-four, #captionFour {
   -webkit-animation-name: zoom;
   -webkit-animation-duration: 0.6s;
   animation-name: zoom;
   animation-duration: 0.6s;
 }
-.modal-content-five, #captionFive {  
+.modal-content-five, #captionFive {
   -webkit-animation-name: zoom;
   -webkit-animation-duration: 0.6s;
   animation-name: zoom;
   animation-duration: 0.6s;
 }
-.modal-content-six, #captionSix {  
+.modal-content-six, #captionSix {
   -webkit-animation-name: zoom;
   -webkit-animation-duration: 0.6s;
   animation-name: zoom;
   animation-duration: 0.6s;
 }
-.modal-content-seven, #captionSeven {  
+.modal-content-seven, #captionSeven {
   -webkit-animation-name: zoom;
   -webkit-animation-duration: 0.6s;
   animation-name: zoom;
   animation-duration: 0.6s;
 }
-.modal-content-eight, #captionEight {  
+.modal-content-eight, #captionEight {
   -webkit-animation-name: zoom;
   -webkit-animation-duration: 0.6s;
   animation-name: zoom;
   animation-duration: 0.6s;
 }
-.modal-content-nine, #captionNine {  
+.modal-content-nine, #captionNine {
   -webkit-animation-name: zoom;
   -webkit-animation-duration: 0.6s;
   animation-name: zoom;
   animation-duration: 0.6s;
 }
-.modal-content-ten, #captionTen {  
+.modal-content-ten, #captionTen {
   -webkit-animation-name: zoom;
   -webkit-animation-duration: 0.6s;
   animation-name: zoom;
   animation-duration: 0.6s;
 }
-.modal-content-eleven, #captionEleven {  
+.modal-content-eleven, #captionEleven {
   -webkit-animation-name: zoom;
   -webkit-animation-duration: 0.6s;
   animation-name: zoom;
   animation-duration: 0.6s;
 }
-.modal-content-twelve, #captionTwelve {  
+.modal-content-twelve, #captionTwelve {
   -webkit-animation-name: zoom;
   -webkit-animation-duration: 0.6s;
   animation-name: zoom;
   animation-duration: 0.6s;
 }
-.modal-content-thirteen, #captionThirteen {  
+.modal-content-thirteen, #captionThirteen {
   -webkit-animation-name: zoom;
   -webkit-animation-duration: 0.6s;
   animation-name: zoom;
   animation-duration: 0.6s;
 }
-.modal-content-fourteen, #captionFourteen {  
+.modal-content-fourteen, #captionFourteen {
   -webkit-animation-name: zoom;
   -webkit-animation-duration: 0.6s;
   animation-name: zoom;
   animation-duration: 0.6s;
 }
-.modal-content-fifteen, #captionFifteen {  
+.modal-content-fifteen, #captionFifteen {
   -webkit-animation-name: zoom;
   -webkit-animation-duration: 0.6s;
   animation-name: zoom;
   animation-duration: 0.6s;
 }
-.modal-content-sixteen, #captionSixteen {  
+.modal-content-sixteen, #captionSixteen {
   -webkit-animation-name: zoom;
   -webkit-animation-duration: 0.6s;
   animation-name: zoom;
   animation-duration: 0.6s;
 }
-.modal-content-seventeen, #captionSixteen {  
+.modal-content-seventeen, #captionSixteen {
   -webkit-animation-name: zoom;
   -webkit-animation-duration: 0.6s;
   animation-name: zoom;
   animation-duration: 0.6s;
 }
-.modal-content-eighteen, #captionSixteen {  
+.modal-content-eighteen, #captionSixteen {
   -webkit-animation-name: zoom;
   -webkit-animation-duration: 0.6s;
   animation-name: zoom;
@@ -1315,7 +1315,7 @@ body {
   cursor: pointer;
 }
 @-webkit-keyframes zoom {
-  from {-webkit-transform:scale(0)} 
+  from {-webkit-transform:scale(0)}
   to {-webkit-transform:scale(1)}
 }
 /* 100% Image Width on Smaller Screens */
@@ -1414,9 +1414,9 @@ body {
 }
 
 
- 
- 
- 
+
+
+
 
 
 

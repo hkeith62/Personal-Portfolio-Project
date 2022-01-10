@@ -12,10 +12,11 @@ class Header extends HTMLElement
                 <ul class="nav-container">
                   <li><a href="index.html">Home</a></li>
                   <li><a href="projects.html">Projects</a></li>
-                  <li><a href="data-base.html">Database Diagrams</a></li>
+                  <li><a href="./web-335/hall-diagrams.html">Database Diagrams</a></li>
                   <li><a href="unit-tests.html">API Unit Tests</a></li>
-                  <li><a href="about.html">About</a></li>
-                  <li><a href="resume.html">Resume</a></li>
+				  <li><a href="./web-430/hall-tech-value-stream.html">Devops</a></li>
+                  <li><a href="about.html">Resume</a></li>
+                  <li><a href="resume.html">About</a></li>
                </ul>
           </div>`
         ;
