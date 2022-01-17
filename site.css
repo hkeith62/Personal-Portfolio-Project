@@ -264,9 +264,10 @@ body {
     text-align: center;
     position: absolute;
     top: 365px;
-    left: 50%;
+    left: 52.5%;
     transform: translate(-50%, -50%);
     color: white;
+	margin-top: 16px;
   }
 
   .hero-text button {
@@ -290,15 +291,20 @@ body {
 }
 /* Style link as a button */
 
-  .button {
-
+  .button  {
         background-color: #69F483;
         padding: 10px 15px;
         border-radius: 3px;
+		float: right;
+		margin-right: 220px;
+		margin-top: -25px;
+		color: #565656;
       }
  .button:hover {
 	  background-color: #1ff246;
+	  text-decoration: none;
  }
+  
 /* comment button */
 .comment-btn {
 	border: none;

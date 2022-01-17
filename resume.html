@@ -29,28 +29,19 @@
 
     <body onload="draw()">
 
-        <div id="header">
-            <span id="logo" style="background-color:#094514; width:60px; height:43px; color:#69F483">KH</span>
+        <header-component></header-component>
 
- 		      <div class="the-hamburger"><a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars fa-lg"></i></a></div>
-                <ul class="nav-container">
-                  <li><a href="index.html">Home</a></li>
-                  <li><a href="projects.html">Projects</a></li>
-                  <li><a href="data-base.html">Database Diagrams</a></li>
-                  <li><a href="unit-tests.html">API Unit Tests</a></li>
-                  <li><a href="about.html">About</a></li>
-                  <li style="margin-top:4px"><a class="button" style="color: #094514;font-weight:800" href="resume.docx"><span class="glyphicon">&#xe025;</span> Download Full Resume</a></li>
-                </ul>
-          </div>
+        <div class="resume-container">
 
-        <div id="container" style="margin-left:200px">
-
-            <canvas id="bg" style="margin-top:40px"></canvas>
-            <main id="content">
+            <canvas id="bg" style="margin-top:40px"></canvas>	 
+            <main id="content" style= "width:100%">
+			 
+			<a href="resume.docx" class= "button"><span class="glyphicon">&#xe025;</span>Download Full Resume</a>
+			 
                 <h1>
                     <div class="hex moved"></div><span>Summary</span></h1>
                 <div class="subtext" id="main">
-                    <p>Lorem Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.</p>
+                    <p>Lorem Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod <br>tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.</p>
 
                 </div>
                 <h2>
