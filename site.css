@@ -11,6 +11,12 @@ body {
     box-sizing: border-box;
     width: 100%;
 }
+.subtitle {
+  color: black;
+  margin-top: 20px;
+  height: 20%;
+  font-size: 18px;
+}
 #app-header {
 	padding-top: 17px; /* Helps center h1 text on api unit test page */
 }
@@ -130,7 +136,7 @@ body {
 	position: relative;
 	margin-bottom: 20px;
 }
- 
+
 /* h1 app header container */
 .card12 {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -173,13 +179,14 @@ body {
 	bottom: 0;
 	margin-bottom: 85px;
 	padding: 8px 0;
-    background-color: #094514;
+  background-color: #094514;
  }
  .divider-text {
     margin-top: 48px;
     color: white;
     margin-left: -60px;
-    font-size: 50px;
+    font-size: 72px;
+    font-family: 'Poppins', Verdana, Arial, sans-serif;
  }
  figure {
      margin-top: -10px,
@@ -264,11 +271,11 @@ body {
 .hero-text {
     text-align: center;
     position: absolute;
-    top: 365px;
+    top: 225px;
     left: 52.5%;
     transform: translate(-50%, -50%);
     color: white;
-	margin-top: 16px;
+    font-weight: 800;
   }
 
   .hero-text button {
