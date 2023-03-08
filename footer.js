@@ -7,30 +7,21 @@ class Footer extends HTMLElement
     connectedCallback() {
         this.innerHTML = `
           <div id="footer-container">
-           <div id="footer">
-            <div class="footer-lists">
+            <div id="footer">
+            <div class="footer-list1">
               <div class="footer-title"><h5>Quick Links</h5></div>
                 <a href="https://github.com/hkeith62?tab=repositories" target="_blank">My GitHub Repositories</a>
                 <a href="https://www.bellevue.edu/degrees/bachelor/web-development-bs/ "target="_blank">Bellevue University (BU) Degree</a>
                 <a href="https://www.youtube.com/c/bellevueuniversity">YouTube Channel</a>
                 <a href="https://github.com/buwebdev" target="_blank">BU GitHub Repositories</a>
             </div>
-            <div class="footer-lists">
-              <div class="footer-title"><h5>Social Media</h5></div>
-                <a href="https://www.linkedin.com/feed/?trk=onboarding-landing"target="_blank" >LinkedIn</a>
-                <a href="https://www.facebook.com/home.php?ref=wizard" target="_blank">Facebook</a>
-                <a href="https://twitter.com/home" target="_blank">Twitter</a>
-                <a href="https://www.instagram.com/create/select/" target="_blank">Instagram</a>
-            </div>
-            <div class="footer-lists">
-              <div class="footer-title"><h5 style="margin-left:45px">Comments</h5></div>
+            <div class="footer-list3">
+              <div class="footer-title3"><h5 style="margin-left:20px;padding-bottom:11px">Comments</h5></div>
 
                   <div class="card-title"></div>
                   <div class="card-content" id="projects-container">
                   <div class="smart-wrap"style="height: 50x">
                   <div class="smart-forms smart-container wrap-3">
-
-
                       <form method="post" action="/" id="comment2">
                           <div class="form-body theme-blue">
                               <div class="section">
@@ -42,7 +33,7 @@ class Footer extends HTMLElement
                           </div><!-- end .form-body section -->
 
                           <div class="form-footer">
-                              <button type="submit" class="comment-btn">Submit Comments</button>
+                              <button type="submit" class="comment-btn"style="padding:12px">Submit Comments</button>
                           </div><!-- end .form-footer section -->
                       </form>
 
@@ -59,7 +50,9 @@ class Footer extends HTMLElement
         <div id="copy-right">
            <span>Copyright &copy; &nbsp; Terms &nbsp; Privacy</span>
         </div>
+		</div>
         `;
+		
     }
 }
 

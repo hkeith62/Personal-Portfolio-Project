@@ -6,18 +6,44 @@ class Header extends HTMLElement
 
     connectedCallback() {
         this.innerHTML = `
-          <div id="header">
-            <span id="logo" style="background-color:#094514; width:60px; height:41px; margin-left:60px; color:#69F483">KH</span>
-                <ul class="nav-container ">
-                  <li><a href="index.html">Home</a></li>
-                  <li><a href="projects.html">Projects</a></li>
-                  <li><a href="database-diagrams.html">Database Diagrams</a></li>
-                  <li><a href="unit-tests.html">API Unit Tests</a></li>
-				          <li><a href="devops.html">DevOps Presentations</a></li>
-                  <li><a href="resume.html">Resume</a></li>
-                  <li><a href="about.html">About</a></li>
-               </ul>
-          </div>`
+   <nav>
+    <div class="navbar">
+      <i class='bx bx-menu'></i>
+      <div class="logo" style="background-color:#094514;width:60px;height:41px;color:#69F483">KH</div>
+      <div class="nav-links">
+        <div class="sidebar-logo">
+          <span class="logo-name"style="background-color:#094514; width:60px;height:41px;color:#69F483">KH</span>
+          <i class='bx bx-x' ></i>
+        </div>
+        <ul class="links">
+          <li><a href="index.html">HOME</a></li>
+          <li>
+            <a href="#">PROJECTS</a>
+            <i class='bx bxs-chevron-down htmlcss-arrow arrow'></i>
+            <ul class="htmlCss-sub-menu sub-menu">
+              <li><a href="cybersecurity.html">Cybersecurity</a></li>
+              <li class="more">
+                <span><a href="#">Web Application<i class='bx bxs-chevron-right arrow more-arrow'></i></a></span>
+                <ul class="more-sub-menu sub-menu">
+                  <li><a href="development.html">Development</a></li>
+                  <li><a href="database-diagrams.html">Database</a></li>
+                  <li><a href="unit-tests.html">Api Unit Tests</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li><a href="devops.html">DEVOPS</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+		  <li><a href="mailto:hkeith62@gmail.com">CONTACT</a></li>
+		  <li><a href="resume.html">RESUME</a></li>
+        </ul>
+		
+      </div>
+      <div class="search-box">
+        <i class='bx bx'></i>
+      </div>
+    </div>
+  </nav>`
         ;
     }
 }

@@ -14,12 +14,14 @@
         <meta name="keywords" content="Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." />
         <meta name="robots" content= "nofollow" />
         <meta name="author" content="Keith Hall" />
+	    <link rel="stylesheet" href="style.css" />
         <link rel="stylesheet" href="site.css" />
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:ital,wght@0,300;0,400;0,500;1,700&display=swap" rel="stylesheet">
+		<link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
         <script src="header.js"></script>
         <script src="footer.js"></script>
         <script src="database-api-index.js"></script>
@@ -27,15 +29,14 @@
 <body>
 <header-component></header-component>
 <div id="container">
-    <div class="content-container" style="width:60%; height:3290px"> <!--Adjust width and height to change grid box size. -->
-        <div class="card12" style="width:50%;margin-top:120px;margin-left:198px;margin-bottom:100px; background-color:#69F483; color:#094514; border:3px solid #094514">
-            <h1 id="app-header" style="margin-top:-45px">API Unit Tests</h1>
-        </div>
-
-		    <br>
+ <h1 id="app-header" style="margin-top:100px;text-align:center">Api Unit Tests</h1>
+    <div class="content-container" style="width:60%; height:80%"> <!--Adjust width and height to change grid box size. -->
+        <div class="title" style="width:50%;margin-top:90px;margin-left:198px;margin-bottom:100px">
+         
+     </div><br>
         <!-- Modals -->
         <div class="grid-container"style= "margin-top:-85px">
-	        <div class= "card" style="width:100%;max-width:300px"><h4>Find Composer By Id</h4><p>API get using Swagger on Node.js.</p>
+	        <div class= "card"><h4>API get using Swagger on Node.js.</h4><br>
 	            <img id="myImg" src="images/swagger-docs.png" alt="Image of API test using swagger-docs and swagger-ui">
                 <div id= "myModal" class= "modal">
 			       <span class="close">&times;</span>
@@ -43,7 +44,7 @@
                 <div id="caption"></div>
                 </div>
 		    </div>
-	        <div class= "card" style="width:100%;max-width:300px"><h4>SoapUI</h4><p>API unit test using SoapUI 5.6.0 Open Source.</p>
+	        <div class= "card"><h4>API unit test using SoapUI 5.6.0 Open Source.</h4>
 	            <img id="myImgTwo" src="images/soap_one.png" alt="Image of API test using SoapUI Open Source.">
                 <div id= "myModalTwo" class= "modalTwo">
 			        <span class="closeTwo">&times;</span>
@@ -51,7 +52,7 @@
                 <div id="captionTwo"></div>
                 </div>
 		    </div>
-		    <div class= "card" style="width:100%;max-width:300px"><h4>SoapUI</h4><p>API unit test using SoapUI 5.6.0 Open Source.</p>
+		    <div class= "card"><h4>API unit test using SoapUI 5.6.0 Open Source.</h4>
 	           <img id="myImgThree" src="images/soap_two.png" alt="Image of API test using SoapUI Open Source.">
                <div id= "myModalThree" class= "modalThree">
 			        <span class="closeThree">&times;</span>
@@ -60,7 +61,7 @@
                 </div>
 		    </div>
 		    <!-- Second Row of Modals -->
-		    <div class= "card" style="width:100%;max-width:300px"><h4>Swagger</h4><p>API test unit test using Swagger on Node.js.</p>
+		    <div class= "card"><h4>API test unit test using Swagger on Node.js.</h4>
 	            <img id="myImgFour" src="images/swaggerDoc_two.png" alt="Image of API test using swagger-docs and swagger-ui">
                 <div id= "myModalFour" class= "modalFour">
 			       <span class="closeFour">&times;</span>
@@ -68,7 +69,7 @@
                 <div id="captionFour"></div>
                 </div>
 		    </div>
-	        <div class= "card" style="width:100%;max-width:300px"><h4>SoapUI</h4><p>API unit test using SoapUI 5.6.0 Open Source.</p>
+	        <div class= "card"><h4>API unit test using SoapUI 5.6.0 Open Source.</h4>
 	            <img id="myImgFive" src="images/soap_three.png" alt="Image of API test using SoapUI Open Source.">
                 <div id= "myModalFive" class= "modalFive">
 			        <span class="closeFive">&times;</span>
@@ -76,7 +77,7 @@
                 <div id="captionFive"></div>
                 </div>
 		    </div>
-		    <div class= "card" style="width:100%;max-width:300px"><h4>SoapUI</h4><p>API unit test using SoapUI 5.6.0 Open Source.</p>
+		    <div class= "card"><h4>API unit test using SoapUI 5.6.0 Open Source.</h4>
 	            <img id="myImgSix" src="images/soap_four.png" alt="Image of API test using SoapUI Open Source.">
                 <div id= "myModalSix" class= "modalSix">
 			        <span class="closeSix">&times;</span>
@@ -85,7 +86,7 @@
                 </div>
 		    </div>
 			<!-- Third Row of Modals -->
-		    <div class= "card" style="width:100%;max-width:300px"><h4>Swagger</h4><p>API test unit test using Swagger on Node.js.</p>
+		    <div class= "card"><h4>API test unit test using Swagger on Node.js.</h4>
 	            <img id="myImgSeven" src="images/swaggerDoc_two.png" alt="Image of API test using swagger-docs and swagger-ui">
                 <div id= "myModalSeven" class= "modalSeven">
 			       <span class="closeSeven">&times;</span>
@@ -93,7 +94,7 @@
                 <div id="captionSeven"></div>
                 </div>
 		    </div>
-	        <div class= "card" style="width:100%;max-width:300px"><h4>SoapUI</h4><p>API unit test using SoapUI 5.6.0 Open Source.</p>
+	        <div class= "card"><h4>API unit test using SoapUI 5.6.0 Open Source.</h4>
 	            <img id="myImgEight" src="images/soap_three.png" alt="Image of API test using SoapUI Open Source.">
                 <div id= "myModalEight" class= "modalEight">
 			        <span class="closeEight">&times;</span>
@@ -101,7 +102,7 @@
                 <div id="captionEight"></div>
                 </div>
 		    </div>
-		    <div class= "card" style="width:100%;max-width:300px"><h4>SoapUI</h4><p>API unit test using SoapUI 5.6.0 Open Source.</p>
+		    <div class= "card"><h4>API unit test using SoapUI 5.6.0 Open Source.</h4>
 	            <img id="myImgNine" src="images/soap_four.png" alt="Image of API test using SoapUI Open Source.">
                 <div id= "myModalNine" class= "modalNine">
 			        <span class="closeNine">&times;</span>
@@ -110,7 +111,7 @@
                 </div>
 		    </div>
 			<!-- Fourth Row of Modals -->
-		    <div class= "card" style="width:100%;max-width:300px"><h4>Swagger</h4><p>API test unit test using Swagger on Node.js.</p>
+		    <div class= "card"><h4>API test unit test using Swagger on Node.js.</h4>
 	            <img id="myImgTen" src="images/swaggerDoc_two.png" alt="Image of API test using swagger-docs and swagger-ui">
                 <div id= "myModalTen" class= "modalTen">
 			       <span class="closeTen">&times;</span>
@@ -118,7 +119,7 @@
                 <div id="captionTen"></div>
                 </div>
 		    </div>
-	        <div class= "card" style="width:100%;max-width:300px"><h4>SoapUI</h4><p>API unit test using SoapUI 5.6.0 Open Source.</p>
+	        <div class= "card"><h4>API unit test using SoapUI 5.6.0 Open Source.</h4>
 	            <img id="myImgEleven" src="images/soap_three.png" alt="Image of API test using SoapUI Open Source.">
                 <div id= "myModalEleven" class= "modalEleven">
 			        <span class="closeEleven">&times;</span>
@@ -126,7 +127,7 @@
                 <div id="captionEleven"></div>
                 </div>
 		    </div>
-		    <div class= "card" style="width:100%;max-width:300px"><h4>SoapUI</h4><p>API unit test using SoapUI 5.6.0 Open Source.</p>
+		    <div class= "card"><h4>API unit test using SoapUI 5.6.0 Open Source.</h4>
 	            <img id="myImgTwelve" src="images/soap_four.png" alt="Image of API test using SoapUI Open Source.">
                 <div id= "myModalTwelve" class= "modalTwelve">
 			        <span class="closeTwelve">&times;</span>
@@ -135,7 +136,7 @@
                 </div>
 		    </div>
 			<!-- Fifth Row of Modals -->
-		    <div class= "card" style="width:100%;max-width:300px"><h4>Delete Team By Id</h4><p>API delete with Swagger on Node.js</p>
+		    <div class= "card"><h4>API delete with Swagger on Node.js</h4>
 	            <img id="myImgThirteen" src="images/swaggerDoc13.png" alt="Image of API test using swagger-docs and swagger-ui">
                 <div id= "myModalThirteen" class= "modalThirteen">
 			       <span class="closeThirteen">&times;</span>
@@ -143,7 +144,7 @@
                 <div id="captionThirteen"></div>
                 </div>
 		    </div>
-	        <div class= "card" style="width:100%;max-width:300px"><h4>Add A Team</h4><p>API post with Swagger on Node.js</p>
+	        <div class= "card"><h4>API post with Swagger on Node.js</h4>
 	            <img id="myImgFourteen" src="images/swaggerDoc14.png" alt="Image of API test using SoapUI Open Source.">
                 <div id= "myModalFourteen" class= "modalFourteen">
 			        <span class="closeFourteen">&times;</span>
@@ -151,7 +152,7 @@
                 <div id="captionFourteen"></div>
                 </div>
 		    </div>
-		    <div class= "card" style="width:100%;max-width:300px"><h4>List ALL Teams</h4><p>API get using Swagger on Node.js</p>
+		    <div class= "card"><h4>API get using Swagger on Node.js</h4>
 	            <img id="myImgFifteen" src="images/swaggerDoc15.png" alt="Image of API test using SoapUI Open Source.">
                 <div id= "myModalFifteen" class= "modalFifteen">
 			        <span class="closeFifteen">&times;</span>
@@ -160,7 +161,7 @@
                 </div>
 		    </div>
 			<!-- Sixth Row of Modals -->
-		    <div class= "card" style="width:100%;max-width:300px"><h4>Assign New Players To A Team</h4><p>API post by id with Swagger on Node.js</p>
+		    <div class= "card"><h4>API post by id with Swagger on Node.js</h4>
 	            <img id="myImgSixteen" src="images/swaggerDoc16.png" alt="Image of API test using swagger-docs and swagger-ui">
                 <div id= "myModalSixteen" class= "modalSixteen">
 			       <span class="closeSixteen">&times;</span>
@@ -168,7 +169,7 @@
                 <div id="captionSixteen"></div>
                 </div>
 		    </div>
-	        <div class= "card" style="width:100%;max-width:300px"><h4>List All Players of A Team</h4><p>API get by id with Swagger on Node.js</p>
+	        <div class= "card"><h4>API get by id with Swagger on Node.js</h4>
 	            <img id="myImgSeventeen" src="images/swaggerDoc17.png" alt="Image of API test using SoapUI Open Source.">
                 <div id= "myModalSeventeen" class= "modalSeventeen">
 			        <span class="closeSeventeen">&times;</span>
@@ -176,14 +177,7 @@
                 <div id="captionSeventeen"></div>
                 </div>
 		    </div>
-		    <div class= "card" style="width:100%;max-width:300px"><h4>Not In Use</h4><p>API get by id using Swagger on Node.js</p>
-	            <img id="myImgEighteen" src="images/swaggerDoc18.png" alt="Image of API test using SoapUI Open Source.">
-                <div id= "myModalEighteen" class= "modalEighteen">
-			        <span class="closeEighteen">&times;</span>
-			        <img class="modal-content-eighteen" id="img018">
-                <div id="captionEighteen"></div>
-                </div>
-		    </div>
+		    
 		</div>
     </div>
 </div>
