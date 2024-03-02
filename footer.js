@@ -22,7 +22,7 @@ class Footer extends HTMLElement
                   <div class="card-content" id="projects-container">
                   <div class="smart-wrap"style="height: 50x">
                   <div class="smart-forms smart-container wrap-3">
-                      <form method="post" action="/" id="comment2">
+                      <form method="post"   id="comment2">
                           <div class="form-body theme-blue">
                               <div class="section">
                                   <label>

@@ -7,25 +7,20 @@
 body {
     overflow-x: hidden;
     font-family: 'Poppins', Verdana, Arial, sans-serif;
-    margin: 0;
+    margin: auto;
     box-sizing: border-box;
     width: 100%;
+    height:100%;
 }
  
 .subtitle {
   color: black;
-  margin-top: 20px;
+  margin-top: 30px;
   height: 20%;
   font-size: 16px;
   font-family: Verdana;
 }
-#app-header {
-	padding-top: 17px; /* Helps center h1 text on api unit test page */
-	font-size: 30px;
-	font-family: 'Poppins', Verdana, Arial, sans-serif;
-	font-weight: 600;
-
-}
+ 
 .sub-heading {
 	text-align: left;
 	margin-bottom: 36px;
@@ -34,9 +29,6 @@ body {
 .sub-heading-one {
 	text-align: center;
 	margin-top: 0px;
-}
-#container {
- margin-top: 50px;     
 }
  
 #header {
@@ -57,14 +49,7 @@ body {
 .the-hamburger a:hover {
     color: #69F483;
 }
-.app-header {
-	 margin-left: 444px;
-	 margin-top: 140px;
-	 margin-bottom: 10px;
-	 font-weight: 500;
-	 font-family: 'Poppins', Verdana, Arial, sans-serif;
-	 font-size: 32px;
-}
+ 
 #great-image {
 	margin-top: -165px;
 	margin-left: 160px;
@@ -78,10 +63,9 @@ p {
 	font-size: 18px;
 }
 .card h4 {
-	
+	margin-top:-25px;
 	font-size: 14px;
 	font-family: 'Arial Rounded MT', poppins; 
-	font-weight;
 }
 .aboutxt {
 	margin-left: 444px;
@@ -95,7 +79,7 @@ p {
 .divider-text {
     margin-top: 18px;
     color: white;
-    margin-left: -30px;
+    margin-left: -130px;
     font-size: 18px;
 	line-height: 1.45;
     font-family: 'Arial Rounded MT', poppins; 
@@ -109,26 +93,59 @@ p {
 .gallery {
 	margin-bottom: 50px;
 }
+#container {
+	margin-top:80px;
+    width: 100%;
+	height: 100%;
+}
+#container-home {
+    margin-top: 50px;
+}
+/* Adjust h1 header */
+#app-header {
+	padding-top: 80px; /* Adjust up or down */
+    text-align:center;
+	font-size: 30px;
+	font-family: 'Poppins', Verdana, Arial, sans-serif;
+	font-weight: 600;
+}
+.app-header {
+	margin: auto;
+    padding-top: 50px;
+	font-weight: 500;
+	font-family: 'Poppins', Verdana, Arial, sans-serif;
+	font-size: 32px;
+}
 .content-container {
+    width: 100%;
+    height:100%;
+    margin-left:165px;
+    margin-top:-220px;
+}
+.content-container-home {
     margin: auto;
 }
+
+.titles {
+margin-top:80px;
+margin-left:270px;
+}
 .grid-container {       /* Grid containers on all pages except home page. */
-    margin-top: -55px;
+    margin-left:80px;
     position: relative;
     display: grid;
     grid-column-gap: 10px;
     grid-template-columns: auto auto auto;
     grid-row-gap: 10px;
 	 
-	 
 }
 .grid-container-home {    /* Home page grid container. */
-    width: 60%;
-    height: 80%;
+    width: 100%;
+    height: 100%;
     display: grid;
-    grid-column-gap: 20px;
+    grid-column-gap: 0px;
     grid-template-columns: auto auto auto;
-    grid-row-gap: 20px;
+    grid-row-gap: 0px;
     margin-left: 125px;
 }
 .card {
@@ -138,20 +155,19 @@ p {
     text-align: center;
 	position: relative;
 	margin-bottom: 20px;
-	height: 80%;
-	width: 90%;
+	height: 60%;
+	width: 80%;
+
 }
 .card-body {
-	
+	margin: auto;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    padding: 6px;
     font-size: 12px;
     text-align: center;
 	position: relative;
-	margin-bottom: 2px;
 	font-family: Verdana, cursive; 
-	height: 70%;
-	width:80%;
+	width:85%;
+    height:60%;
 	
 }
 /* h1 app header container */
@@ -346,19 +362,33 @@ p {
         background-color: #69F483;
         padding: 10px 15px;
         border-radius: 3px;
-		float: right;
-		margin-right: 250px;
-		margin-top: -32px;
+		margin-top: 2px;
 		color: #565656;
 		text-decoration: none;
 		font-family: Poppins;
+        font-weight: 400;
 		 
       }
  .button:hover {
-	  background-color: #1ff246;
+	  background-color: #094514; 
 	  text-decoration: none;
+      color: white;
  }
+.portfolio-button {
+    background-color:#094514;
+    border-radius: 3px;
+    padding: 10px 15px;
+    color:  white;
+    text-decoration: none;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 21px;
+}
 
+    .portfolio-button:hover {
+        background-color: #1ff246;
+        text-decoration: none;
+    }
 /* comment button */
 .comment-btn {
 	border: none;
@@ -731,108 +761,6 @@ p {
   width: 90%;
   max-width: 900px;
 }
-.modal-content-two {
-  margin: auto;
-  display: block;
-  width: 90%;
-  max-width: 900px;
-}
-.modal-content-three {
-  margin: auto;
-  display: block;
-  width: 90%;
-  max-width: 900px;
-}
-.modal-content-four {
-  margin: auto;
-  display: block;
-  width: 90%;
-  max-width: 900px;
-}
-.modal-content-five {
-  margin: auto;
-  display: block;
-  width: 90%;
-  max-width: 900px;
-}
-.modal-content-six {
-  margin: auto;
-  display: block;
-  width: 90%;
-  max-width: 900px;
-}
-.modal-content-seven {
-  margin: auto;
-  display: block;
-  width: 90%;
-  max-width: 900px;
-}
-.modal-content-eight {
-  margin: auto;
-  display: block;
-  width: 90%;
-  max-width: 900px;
-}
-.modal-content-nine {
-  margin: auto;
-  display: block;
-  width: 90%;
-  max-width: 900px;
-}
-.modal-content-ten {
-  margin: auto;
-  display: block;
-  width: 90%;
-  max-width: 900px;
-}
-.modal-content-eleven {
-  margin: auto;
-  display: block;
-  width: 90%;
-  max-width: 900px;
-}
-.modal-content-twelve {
-  margin: auto;
-  display: block;
-  width: 90%;
-  max-width: 900px;
-}
-.modal-content-thirteen {
-  margin: auto;
-  display: block;
-  width: 90%;
-  max-width: 900px;
-}
-.modal-content-fourteen {
-  margin: auto;
-  display: block;
-  width: 90%;
-  max-width: 900px;
-}
-.modal-content-fifteen {
-  margin: auto;
-  display: block;
-  width: 90%;
-  max-width: 900px;
-}
-.modal-content-sixteen {
-  margin: auto;
-  display: block;
-  width: 90%;
-  max-width: 900px;
-}
-.modal-content-seventeen {
-  margin: auto;
-  display: block;
-  width: 90%;
-  max-width: 900px;
-}
-.modal-content-eighteen {
-  margin: auto;
-  display: block;
-  width: 90%;
-  max-width: 900px;
-}
 /* Caption of Modal Image */
 #caption {
   margin: auto;
@@ -1021,103 +949,103 @@ p {
   animation-name: zoom;
   animation-duration: 0.6s;
 }
-.modal-content-two, #captionTwo {
+.modal-content, #captionTwo {
   -webkit-animation-name: zoom;
   -webkit-animation-duration: 0.6s;
   animation-name: zoom;
   animation-duration: 0.6s;
 }
-.modal-content-three, #captionThree {
+.modal-content, #captionThree {
   -webkit-animation-name: zoom;
   -webkit-animation-duration: 0.6s;
   animation-name: zoom;
   animation-duration: 0.6s;
 }
-.modal-content-four, #captionFour {
+.modal-content, #captionFour {
   -webkit-animation-name: zoom;
   -webkit-animation-duration: 0.6s;
   animation-name: zoom;
   animation-duration: 0.6s;
 }
-.modal-content-five, #captionFive {
+.modal-content, #captionFive {
   -webkit-animation-name: zoom;
   -webkit-animation-duration: 0.6s;
   animation-name: zoom;
   animation-duration: 0.6s;
 }
-.modal-content-six, #captionSix {
+.modal-content, #captionSix {
   -webkit-animation-name: zoom;
   -webkit-animation-duration: 0.6s;
   animation-name: zoom;
   animation-duration: 0.6s;
 }
-.modal-content-seven, #captionSeven {
+.modal-content, #captionSeven {
   -webkit-animation-name: zoom;
   -webkit-animation-duration: 0.6s;
   animation-name: zoom;
   animation-duration: 0.6s;
 }
-.modal-content-eight, #captionEight {
+.modal-content, #captionEight {
   -webkit-animation-name: zoom;
   -webkit-animation-duration: 0.6s;
   animation-name: zoom;
   animation-duration: 0.6s;
 }
-.modal-content-nine, #captionNine {
+.modal-content, #captionNine {
   -webkit-animation-name: zoom;
   -webkit-animation-duration: 0.6s;
   animation-name: zoom;
   animation-duration: 0.6s;
 }
-.modal-content-ten, #captionTen {
+.modal-content, #captionTen {
   -webkit-animation-name: zoom;
   -webkit-animation-duration: 0.6s;
   animation-name: zoom;
   animation-duration: 0.6s;
 }
-.modal-content-eleven, #captionEleven {
+.modal-content, #captionEleven {
   -webkit-animation-name: zoom;
   -webkit-animation-duration: 0.6s;
   animation-name: zoom;
   animation-duration: 0.6s;
 }
-.modal-content-twelve, #captionTwelve {
+.modal-content, #captionTwelve {
   -webkit-animation-name: zoom;
   -webkit-animation-duration: 0.6s;
   animation-name: zoom;
   animation-duration: 0.6s;
 }
-.modal-content-thirteen, #captionThirteen {
+.modal-content, #captionThirteen {
   -webkit-animation-name: zoom;
   -webkit-animation-duration: 0.6s;
   animation-name: zoom;
   animation-duration: 0.6s;
 }
-.modal-content-fourteen, #captionFourteen {
+.modal-content, #captionFourteen {
   -webkit-animation-name: zoom;
   -webkit-animation-duration: 0.6s;
   animation-name: zoom;
   animation-duration: 0.6s;
 }
-.modal-content-fifteen, #captionFifteen {
+.modal-content, #captionFifteen {
   -webkit-animation-name: zoom;
   -webkit-animation-duration: 0.6s;
   animation-name: zoom;
   animation-duration: 0.6s;
 }
-.modal-content-sixteen, #captionSixteen {
+.modal-content, #captionSixteen {
   -webkit-animation-name: zoom;
   -webkit-animation-duration: 0.6s;
   animation-name: zoom;
   animation-duration: 0.6s;
 }
-.modal-content-seventeen, #captionSixteen {
+.modal-content, #captionSixteen {
   -webkit-animation-name: zoom;
   -webkit-animation-duration: 0.6s;
   animation-name: zoom;
   animation-duration: 0.6s;
 }
-.modal-content-eighteen, #captionSixteen {
+.modal-content, #captionSixteen {
   -webkit-animation-name: zoom;
   -webkit-animation-duration: 0.6s;
   animation-name: zoom;
