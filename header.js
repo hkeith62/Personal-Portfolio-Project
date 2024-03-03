@@ -30,10 +30,12 @@ class Header extends HTMLElement
                               <li><a href="projects.html">Projects</a></li>
                           </ul>
                   <li class="more">
-                     <span><a href="#">Web Application<i class='bx bxs-chevron-right arrow more-arrow'></i></a></span>
+                     <span><a href="#">Web Development<i class='bx bxs-chevron-right arrow more-arrow'></i></a></span>
                          <ul class="more-sub-menu sub-menu">
-                             <li><a href="development.html">Front-end Development</a></li>
+                             <li><a href="development.html">Javascript</a></li>
+                             <li><a href="angular-typescript.html">Angular & Typescript</a></li>
                              <li><a href="database-diagrams.html">NoSQL Database</a></li>
+                             <li><a href="database-diagrams.html">Full-Stack (MEAN)</a></li>
                              <li><a href="unit-tests.html">Api Unit Tests</a></li>
                           </ul>
                             <li class="more">

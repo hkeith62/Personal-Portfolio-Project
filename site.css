@@ -63,7 +63,7 @@ p {
 	font-size: 18px;
 }
 .card h4 {
-	margin-top:-25px;
+	margin-top:-27px;
 	font-size: 14px;
 	font-family: 'Arial Rounded MT', poppins; 
 }
@@ -117,7 +117,7 @@ p {
 	font-size: 32px;
 }
 .content-container {
-    width: 100%;
+    width: 60%;
     height:100%;
     margin-left:165px;
     margin-top:-220px;
