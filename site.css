@@ -157,6 +157,16 @@ margin-left:270px;
 	margin-bottom: 20px;
 	height: 60%;
 	width: 80%;
+}
+.card-unit {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 60px;
+    font-size: 12px;
+    text-align: center;
+	position: relative;
+	margin-bottom: 20px;
+	height: 60%;
+	width: 80%;
 
 }
 .card-body {
@@ -384,11 +394,10 @@ margin-left:270px;
     font-weight: 500;
     font-size: 21px;
 }
-
-    .portfolio-button:hover {
+.portfolio-button:hover {
         background-color: #1ff246;
         text-decoration: none;
-    }
+}
 /* comment button */
 .comment-btn {
 	border: none;
@@ -414,8 +423,7 @@ margin-left:270px;
   border-radius: 5px;
   cursor: pointer;
   transition: 0.3s;
-  width: 60%;
-  height: 45%;
+  height:50%;
 }
 #myImgTwo {
   border-radius: 5px;
@@ -758,7 +766,6 @@ margin-left:270px;
 .modal-content {
   margin: auto;
   display: block;
-  width: 90%;
   max-width: 900px;
 }
 /* Caption of Modal Image */
