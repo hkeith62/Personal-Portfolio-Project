@@ -103,11 +103,11 @@ p {
 }
 /* Adjust h1 header */
 #app-header {
-	padding-top: 80px; /* Adjust up or down */
+    padding-top: 80px; /* Adjust up or down */
     text-align:center;
-	font-size: 30px;
-	font-family: 'Poppins', Verdana, Arial, sans-serif;
-	font-weight: 600;
+    font-size: 38px;
+    font-family: 'Poppins', Verdana, Arial, sans-serif;
+    font-weight: 500;
 }
 .app-header {
 	margin: auto;
