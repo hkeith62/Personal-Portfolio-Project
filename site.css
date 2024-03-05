@@ -64,12 +64,14 @@ body {
     color: white;
 }
 /* Home page subtitle styling */
-.subtitle {
+.subtitle p {
+  margin:auto;
+  font-size: 18px;
   color: black;
+  font-family: 'Poppins', Verdana;
+  margin-bottom: 30px;
   margin-top: 30px;
-  height: 20%;
-  font-size: 16px;
-  font-family: Verdana;
+  font-weight: 500;
 }
 .portfolio-button {
     background-color:#094514;
@@ -77,27 +79,26 @@ body {
     padding: 10px 15px;
     color:  white;
     text-decoration: none;
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-weight: 400;
     font-size: 21px;
-}
+} 
 .portfolio-button:hover {
     background-color: #1ff246;
     text-decoration: none;
 }
-.contact-button  {
+ .contact-button  {
     background-color: #69F483;
-    padding: 10px 15px;
+    padding: 9px 14px;
     border-radius: 3px;
-    margin-top: 2px;
     color: #565656;
-	text-decoration: none;
-	font-family: Poppins;
+    text-decoration: none;
+    font-family: Verdana; 
     font-weight: 400;
 }
 .contact-button:hover {
-	background-color: #094514; 
-	text-decoration: none;
+    background-color: #094514; 
+    text-decoration: none;
     color: white;
 }
 #app-header {
