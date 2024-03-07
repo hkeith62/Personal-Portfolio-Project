@@ -350,7 +350,14 @@ body {
     margin-left: 150px;
 }
 /* Style link as a button */
- 
+button {
+    background-color:black;
+    border-radius: 3px;
+    margin-top: 2px;
+    color: white; 
+	text-decoration: none;
+    cursor: pointer;
+}
 /* comment button */
 .comment-btn {
 	border: none;
@@ -1097,10 +1104,10 @@ body {
 }
 /* The Close Button */
 .close {
-  position: absolute;
-  top: 15px;
-  right: 35px;
-  color: #f1f1f1;
+  float:right;
+  margin-right: 120px;
+  margin-top:-10px;
+  color: white;
   font-size: 40px;
   font-weight: bold;
   transition: 0.3s;
@@ -1112,10 +1119,10 @@ body {
   cursor: pointer;
 }
 .closeTwo {
-  position: absolute;
-  top: 15px;
-  right: 35px;
-  color: #f1f1f1;
+  float:right;
+  margin-right: 120px;
+  margin-top:-10px;
+  color: white;
   font-size: 40px;
   font-weight: bold;
   transition: 0.3s;
@@ -1127,10 +1134,10 @@ body {
   cursor: pointer;
 }
 .closeThree {
-  position: absolute;
-  top: 15px;
-  right: 35px;
-  color: #f1f1f1;
+  float:right;
+  margin-right: 120px;
+  margin-top:-10px;
+  color: white;
   font-size: 40px;
   font-weight: bold;
   transition: 0.3s;
@@ -1142,10 +1149,10 @@ body {
   cursor: pointer;
 }
 .closeFour {
-  position: absolute;
-  top: 15px;
-  right: 35px;
-  color: #f1f1f1;
+  float:right;
+  margin-right: 120px;
+  margin-top:-10px;
+  color: white;
   font-size: 40px;
   font-weight: bold;
   transition: 0.3s;
@@ -1157,10 +1164,10 @@ body {
   cursor: pointer;
 }
 .closeFive {
-  position: absolute;
-  top: 15px;
-  right: 35px;
-  color: #f1f1f1;
+  float:right;
+  margin-right: 120px;
+  margin-top:-10px;
+  color: white;
   font-size: 40px;
   font-weight: bold;
   transition: 0.3s;
@@ -1172,10 +1179,10 @@ body {
   cursor: pointer;
 }
 .closeSix {
-  position: absolute;
-  top: 15px;
-  right: 35px;
-  color: #f1f1f1;
+  float:right;
+  margin-right: 120px;
+  margin-top:-10px;
+  color: white;
   font-size: 40px;
   font-weight: bold;
   transition: 0.3s;
@@ -1187,10 +1194,10 @@ body {
   cursor: pointer;
 }
 .closeSeven {
-  position: absolute;
-  top: 15px;
-  right: 35px;
-  color: #f1f1f1;
+  float:right;
+  margin-right: 120px;
+  margin-top:-10px;
+  color: white;
   font-size: 40px;
   font-weight: bold;
   transition: 0.3s;
@@ -1202,10 +1209,10 @@ body {
   cursor: pointer;
 }
 .closeEight {
-  position: absolute;
-  top: 15px;
-  right: 35px;
-  color: #f1f1f1;
+  float:right;
+  margin-right: 120px;
+  margin-top:-10px;
+  color: white;
   font-size: 40px;
   font-weight: bold;
   transition: 0.3s;
@@ -1217,10 +1224,10 @@ body {
   cursor: pointer;
 }
 .closeNine {
-  position: absolute;
-  top: 15px;
-  right: 35px;
-  color: #f1f1f1;
+  float:right;
+  margin-right: 120px;
+  margin-top:-10px;
+  color: white;
   font-size: 40px;
   font-weight: bold;
   transition: 0.3s;
@@ -1232,10 +1239,10 @@ body {
   cursor: pointer;
 }
 .closeTen {
-  position: absolute;
-  top: 15px;
-  right: 35px;
-  color: #f1f1f1;
+  float:right;
+  margin-right: 120px;
+  margin-top:-10px;
+  color: white;
   font-size: 40px;
   font-weight: bold;
   transition: 0.3s;
@@ -1247,10 +1254,10 @@ body {
   cursor: pointer;
 }
 .closeEleven {
-  position: absolute;
-  top: 15px;
-  right: 35px;
-  color: #f1f1f1;
+  float:right;
+  margin-right: 120px;
+  margin-top:-10px;
+  color: white;
   font-size: 40px;
   font-weight: bold;
   transition: 0.3s;
@@ -1262,10 +1269,10 @@ body {
   cursor: pointer;
 }
 .closeTwelve {
-  position: absolute;
-  top: 15px;
-  right: 35px;
-  color: #f1f1f1;
+  float:right;
+  margin-right: 120px;
+  margin-top:-10px;
+  color: white;
   font-size: 40px;
   font-weight: bold;
   transition: 0.3s;
@@ -1277,10 +1284,10 @@ body {
   cursor: pointer;
 }
 .closeThirteen {
-  position: absolute;
-  top: 15px;
-  right: 35px;
-  color: #f1f1f1;
+  float:right;
+  margin-right: 120px;
+  margin-top:-10px;
+  color: white;
   font-size: 40px;
   font-weight: bold;
   transition: 0.3s;
@@ -1292,10 +1299,10 @@ body {
   cursor: pointer;
 }
 .closeFourteen {
-  position: absolute;
-  top: 15px;
-  right: 35px;
-  color: #f1f1f1;
+  float:right;
+  margin-right: 120px;
+  margin-top:-10px;
+  color: white;
   font-size: 40px;
   font-weight: bold;
   transition: 0.3s;
@@ -1307,10 +1314,10 @@ body {
   cursor: pointer;
 }
 .closeFifteen {
-  position: absolute;
-  top: 15px;
-  right: 35px;
-  color: #f1f1f1;
+  float:right;
+  margin-right: 120px;
+  margin-top:-10px;
+  color: white;
   font-size: 40px;
   font-weight: bold;
   transition: 0.3s;
@@ -1322,10 +1329,10 @@ body {
   cursor: pointer;
 }
 .closeSixteen {
-  position: absolute;
-  top: 15px;
-  right: 35px;
-  color: #f1f1f1;
+  float:right;
+  margin-right: 120px;
+  margin-top:-10px;
+  color: white;
   font-size: 40px;
   font-weight: bold;
   transition: 0.3s;
@@ -1337,10 +1344,10 @@ body {
   cursor: pointer;
 }
 .closeSeventeen {
-  position: absolute;
-  top: 15px;
-  right: 35px;
-  color: #f1f1f1;
+  float:right;
+  margin-right: 120px;
+  margin-top:-10px;
+  color: white;
   font-size: 40px;
   font-weight: bold;
   transition: 0.3s;
@@ -1352,10 +1359,10 @@ body {
   cursor: pointer;
 }
 .closeEighteen {
-  position: absolute;
-  top: 15px;
-  right: 35px;
-  color: #f1f1f1;
+  float:right;
+  margin-right: 120px;
+  margin-top:-10px;
+  color: white;
   font-size: 40px;
   font-weight: bold;
   transition: 0.3s;
