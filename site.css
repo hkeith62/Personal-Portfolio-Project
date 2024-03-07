@@ -76,22 +76,8 @@ body {
   color: black;
   font-family: 'Poppins', Verdana;
   margin-bottom: 30px;
-  margin-top: 30px;
+  margin-top: 3px;
   font-weight: 500;
-}
-.portfolio-button {
-    background-color:#094514;
-    border-radius: 3px;
-    padding: 10px 15px;
-    color:  white;
-    text-decoration: none;
-    font-family: Poppins;
-    font-weight: 400;
-    font-size: 21px;
-}
-.portfolio-button:hover {
-    background-color: #1ff246;
-    text-decoration: none;
 }
 .contact-button  {
     background-color: #69F483;
