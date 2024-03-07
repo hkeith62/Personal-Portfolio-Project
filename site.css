@@ -1,7 +1,7 @@
 /**
     Title: WEB 231 – My Portfolio Website
     Author: Keith Hall
-    Date: 05/30/2021
+    Date: 03/03/2024
     Description: This is the css mark up for my portfolio website.
 */
 body {
@@ -12,132 +12,22 @@ body {
     width: 100%;
     height:100%;
 }
- 
-.subtitle {
-  color: black;
-  margin-top: 30px;
-  height: 20%;
-  font-size: 16px;
-  font-family: Verdana;
-}
- 
-.sub-heading {
-	text-align: left;
-	margin-bottom: 36px;
-	margin-top: -20px;
-}
-.sub-heading-one {
-	text-align: center;
-	margin-top: 0px;
-}
- 
-#header {
-	width: 1450px;
-	background-color: #094514;
-    margin-bottom: 60px;
-}
-/* Top hamburger (3 line) menu. */
-.the-hamburger {
-    float: right;
-    padding: 19px 32px 0;
-    margin-right: 140px;
-    margin-top: 6px;
-}
-.the-hamburger a {
-    color: white;
-}
-.the-hamburger a:hover {
-    color: #69F483;
-}
- 
-#great-image {
-	margin-top: -165px;
-	margin-left: 160px;
-	width: 267px;
-	height:242px;
-}
-/* Page Text */
-p {
-	font-family: 'Arial Rounded MT', poppins;  
-	font-weight: 800;
-	font-size: 18px;
-}
-.card h4 {
-	margin-top:-27px;
-	font-size: 14px;
-	font-family: 'Arial Rounded MT', poppins; 
-}
-.aboutxt {
-	margin-left: 444px;
-}
-.aboutxt p {
- font-size: 14px;
- font-family: poppins; 
- line-height: 1.55;
- font-weight: 400;
-} 
-.divider-text {
-    margin-top: 18px;
-    color: white;
-    margin-left: -130px;
-    font-size: 18px;
-	line-height: 1.45;
-    font-family: 'Arial Rounded MT', poppins; 
- }
-.current-link {
-    color:#baada7;
-}
-/* End navigation. */
-
-/*Start content container */
-.gallery {
-	margin-bottom: 50px;
-}
 #container {
-	margin-top:80px;
+	margin-top:50px;
     width: 100%;
 	height: 100%;
 }
-#container-home {
-    margin-top: 50px;
-}
-/* Adjust h1 header */
-#app-header {
-	padding-top: 80px; /* Adjust up or down */
-    text-align:center;
-	font-size: 30px;
-	font-family: 'Poppins', Verdana, Arial, sans-serif;
-	font-weight: 600;
-}
-.app-header {
-	margin: auto;
-    padding-top: 50px;
-	font-weight: 500;
-	font-family: 'Poppins', Verdana, Arial, sans-serif;
-	font-size: 32px;
-}
-.content-container {
-    width: 60%;
-    height:100%;
-    margin-left:165px;
-    margin-top:-220px;
+/* Home Page */
+.main-content-container {
+    margin: auto;
+    width:100%;        
+    height:555px;
+    background-color: #DEDEDE; 
 }
 .content-container-home {
     margin: auto;
-}
-
-.titles {
-margin-top:80px;
-margin-left:270px;
-}
-.grid-container {       /* Grid containers on all pages except home page. */
-    margin-left:80px;
-    position: relative;
-    display: grid;
-    grid-column-gap: 10px;
-    grid-template-columns: auto auto auto;
-    grid-row-gap: 10px;
-	 
+    width:80%;
+    height:100%;
 }
 .grid-container-home {    /* Home page grid container. */
     width: 100%;
@@ -148,6 +38,142 @@ margin-left:270px;
     grid-row-gap: 0px;
     margin-left: 125px;
 }
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("hero.jpg");
+    height: 50%;
+    background-position: center;        /* Hero Section */
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 225px;
+    left: 52.5%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-weight: 300;
+}
+.hero-text button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 10px 25px;
+    color: black;
+    background-color: #69F483;
+    text-align: center;
+    cursor: pointer;
+	border-radius: 3px;
+}
+.hero-text button:hover {
+    background-color:#094514;
+    color: white;
+}
+.subtitle p {
+  margin:auto;
+  font-size: 18px;
+  color: black;
+  font-family: 'Poppins', Verdana;
+  margin-bottom: 30px;
+  margin-top: 3px;
+  font-weight: 500;
+}
+.contact-button  {
+    background-color: #69F483;
+    padding: 10px 15px;
+    border-radius: 3px;
+    margin-top: 2px;
+    color: #565656;
+	text-decoration: none;
+	font-family: Poppins;
+    font-weight: 400;
+}
+.contact-button:hover {
+	background-color: #094514; 
+	text-decoration: none;
+    color: white;
+}
+button{
+    background-color: black;
+    color: #fff;
+    width:5%;
+    cursor: pointer;
+}
+#app-header {
+	padding-top: 80px; /* Adjust up or down */
+    text-align:center;
+	font-size: 38px;
+	font-family: 'Poppins', Verdana, Arial, sans-serif;
+	font-weight: 500;
+}
+/* Card text for home, javascript, unit-tests, and angular html pages,  */
+.card h4 {
+    margin-top:-20px;
+	font-size: 12px;
+	font-family: 'Arial Rounded MT', poppins; 
+}
+.divider-text {
+    margin-top: 18px;
+    color: white;
+    margin-left: -117px;
+    font-size: 28px;
+	line-height: 1.45;
+    font-family: 'Arial Rounded MT', poppins; 
+    font-weight:500;
+ }
+/* About page */
+#about-image {
+	margin-top: -65px;
+	margin-left: 160px;
+	width: 267px;
+	height:242px;
+}
+.aboutxt {
+	margin-left: 444px;
+}
+.aboutxt p {
+    font-size: 14px;
+    font-family: poppins; 
+    line-height: 1.55;
+    font-weight: 400;
+} 
+.doc-titles {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    font-family: 'Poppins', Verdana, Arial, sans-serif;
+    font-size: 21px;
+    font-weight: 500;
+}
+.content-container {
+    width: 80%;
+    height:100%;
+    margin:auto;
+}
+.api-content-containers {
+    width: 70%;
+    height:100%;
+    margin:auto;
+}
+/* Grid and Document containers */
+.grid-container {       
+    margin:auto;
+    position: relative;
+    display: grid;
+    grid-column-gap: 2px;
+    grid-template-columns: auto auto auto;
+    grid-row-gap: 10px; 
+}
+.document-containers {       
+    margin: auto;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+	position: relative;
+	font-family: Verdana, cursive; 
+	width:65%;
+    height:100%; 
+}
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     padding: 60px;
@@ -156,7 +182,7 @@ margin-left:270px;
 	position: relative;
 	margin-bottom: 20px;
 	height: 60%;
-	width: 80%;
+	width: 75%;
 }
 .card-unit {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -167,7 +193,6 @@ margin-left:270px;
 	margin-bottom: 20px;
 	height: 60%;
 	width: 80%;
-
 }
 .card-body {
 	margin: auto;
@@ -177,8 +202,7 @@ margin-left:270px;
 	position: relative;
 	font-family: Verdana, cursive; 
 	width:85%;
-    height:60%;
-	
+    height:100%;
 }
 /* h1 app header container */
 .card12 {
@@ -212,9 +236,7 @@ margin-left:270px;
   -webkit-transform: scale(2.5); /* Safari 3-8 */
   transform: scale(2.5);
 }
- 
 /* Grid image styling */
-
 .divider {
 	width: 1450px;
 	height: 100px;
@@ -268,7 +290,7 @@ margin-left:270px;
 /* Footer styling starts here. */
 #footer-container {
     position: relative;
-	width: 100%;
+	width: 104%;
 	background-color: #094514;
 	margin-top: 20px;
 	color: white;
@@ -329,75 +351,12 @@ margin-left:270px;
 	font-size: 12.80px;
     margin-left: 538px;
 }
-.hero-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("hero.jpg");
-    height: 50%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-  }
-.hero-text {
-    text-align: center;
-    position: absolute;
-    top: 225px;
-    left: 52.5%;
-    transform: translate(-50%, -50%);
-    color: white;
-    font-weight: 300;
-  }
 
-  .hero-text button {
-    border: none;
-    outline: 0;
-    display: inline-block;
-    padding: 10px 25px;
-    color: black;
-    background-color: #69F483;
-    text-align: center;
-    cursor: pointer;
-	border-radius: 3px;
-  }
-
-  .hero-text button:hover {
-    background-color:#094514;
-    color: white;
-  }
 #content {
     margin-left: 150px;
 }
 /* Style link as a button */
-
-  .button  {
-        background-color: #69F483;
-        padding: 10px 15px;
-        border-radius: 3px;
-		margin-top: 2px;
-		color: #565656;
-		text-decoration: none;
-		font-family: Poppins;
-        font-weight: 400;
-		 
-      }
- .button:hover {
-	  background-color: #094514; 
-	  text-decoration: none;
-      color: white;
- }
-.portfolio-button {
-    background-color:#094514;
-    border-radius: 3px;
-    padding: 10px 15px;
-    color:  white;
-    text-decoration: none;
-    font-family: Poppins;
-    font-weight: 500;
-    font-size: 21px;
-}
-.portfolio-button:hover {
-        background-color: #1ff246;
-        text-decoration: none;
-}
+ 
 /* comment button */
 .comment-btn {
 	border: none;
@@ -423,7 +382,6 @@ margin-left:270px;
   border-radius: 5px;
   cursor: pointer;
   transition: 0.3s;
-  height:50%;
 }
 #myImgTwo {
   border-radius: 5px;
@@ -439,8 +397,6 @@ margin-left:270px;
   border-radius: 5px;
   cursor: pointer;
   transition: 0.3s;
-  width: 60%;
-  height: 45%;
 }
 #myImgFive {
   border-radius: 5px;
@@ -456,8 +412,6 @@ margin-left:270px;
   border-radius: 5px;
   cursor: pointer;
   transition: 0.3s;
-  width: 60%;
-  height: 45%;
 }
 #myImgEight {
   border-radius: 5px;
@@ -473,44 +427,31 @@ margin-left:270px;
   border-radius: 5px;
   cursor: pointer;
   transition: 0.3s;
-  width: 60%;
-  height: 45%;
 }
 #myImgEleven {
   border-radius: 5px;
   cursor: pointer;
   transition: 0.3s;
-  width: 60%;
-  height: 45%;
 }
 #myImgTwelve {
   border-radius: 5px;
   cursor: pointer;
   transition: 0.3s;
-  width: 60%;
-  height: 45%;
 }
-
 #myImgThirteen {
   border-radius: 5px;
   cursor: pointer;
   transition: 0.3s;
-  width: 60%;
-  height: 45%;
 }
 #myImgFourteen {
   border-radius: 5px;
   cursor: pointer;
   transition: 0.3s;
-  width: 60%;
-  height: 40%;
 }
 #myImgFifteen {
   border-radius: 5px;
   cursor: pointer;
   transition: 0.3s;
-   width: 60%;
-  height: 40%;
 }
 #myImgSixteen {
   border-radius: 5px;
@@ -766,6 +707,109 @@ margin-left:270px;
 .modal-content {
   margin: auto;
   display: block;
+  width: 90%;
+  max-width: 900px;
+}
+.modal-content-two {
+  margin: auto;
+  display: block;
+  width: 90%;
+  max-width: 900px;
+}
+.modal-content-three {
+  margin: auto;
+  display: block;
+  width: 90%;
+  max-width: 900px;
+}
+.modal-content-four {
+  margin: auto;
+  display: block;
+  width: 90%;
+  max-width: 900px;
+}
+.modal-content-five {
+  margin: auto;
+  display: block;
+  width: 90%;
+  max-width: 900px;
+}
+.modal-content-six {
+  margin: auto;
+  display: block;
+  width: 90%;
+  max-width: 900px;
+}
+.modal-content-seven {
+  margin: auto;
+  display: block;
+  width: 90%;
+  max-width: 900px;
+}
+.modal-content-eight {
+  margin: auto;
+  display: block;
+  width: 90%;
+  max-width: 900px;
+}
+.modal-content-nine {
+  margin: auto;
+  display: block;
+  width: 90%;
+  max-width: 900px;
+}
+.modal-content-ten {
+  margin: auto;
+  display: block;
+  width: 90%;
+  max-width: 900px;
+}
+.modal-content-eleven {
+  margin: auto;
+  display: block;
+  width: 90%;
+  max-width: 900px;
+}
+.modal-content-twelve {
+  margin: auto;
+  display: block;
+  width: 90%;
+  max-width: 900px;
+}
+.modal-content-thirteen {
+  margin: auto;
+  display: block;
+  width: 90%;
+  max-width: 900px;
+}
+.modal-content-fourteen {
+  margin: auto;
+  display: block;
+  width: 90%;
+  max-width: 900px;
+}
+.modal-content-fifteen {
+  margin: auto;
+  display: block;
+  width: 90%;
+  max-width: 900px;
+}
+.modal-content-sixteen {
+  margin: auto;
+  display: block;
+  width: 90%;
+  max-width: 900px;
+}
+.modal-content-seventeen {
+  margin: auto;
+  display: block;
+  width: 90%;
+  max-width: 900px;
+}
+.modal-content-eighteen {
+  margin: auto;
+  display: block;
+  width: 90%;
   max-width: 900px;
 }
 /* Caption of Modal Image */
@@ -956,103 +1000,103 @@ margin-left:270px;
   animation-name: zoom;
   animation-duration: 0.6s;
 }
-.modal-content, #captionTwo {
+.modal-content-two, #captionTwo {
   -webkit-animation-name: zoom;
   -webkit-animation-duration: 0.6s;
   animation-name: zoom;
   animation-duration: 0.6s;
 }
-.modal-content, #captionThree {
+.modal-content-three, #captionThree {
   -webkit-animation-name: zoom;
   -webkit-animation-duration: 0.6s;
   animation-name: zoom;
   animation-duration: 0.6s;
 }
-.modal-content, #captionFour {
+.modal-content-four, #captionFour {
   -webkit-animation-name: zoom;
   -webkit-animation-duration: 0.6s;
   animation-name: zoom;
   animation-duration: 0.6s;
 }
-.modal-content, #captionFive {
+.modal-content-five, #captionFive {
   -webkit-animation-name: zoom;
   -webkit-animation-duration: 0.6s;
   animation-name: zoom;
   animation-duration: 0.6s;
 }
-.modal-content, #captionSix {
+.modal-content-six, #captionSix {
   -webkit-animation-name: zoom;
   -webkit-animation-duration: 0.6s;
   animation-name: zoom;
   animation-duration: 0.6s;
 }
-.modal-content, #captionSeven {
+.modal-content-seven, #captionSeven {
   -webkit-animation-name: zoom;
   -webkit-animation-duration: 0.6s;
   animation-name: zoom;
   animation-duration: 0.6s;
 }
-.modal-content, #captionEight {
+.modal-content-eight, #captionEight {
   -webkit-animation-name: zoom;
   -webkit-animation-duration: 0.6s;
   animation-name: zoom;
   animation-duration: 0.6s;
 }
-.modal-content, #captionNine {
+.modal-content-nine, #captionNine {
   -webkit-animation-name: zoom;
   -webkit-animation-duration: 0.6s;
   animation-name: zoom;
   animation-duration: 0.6s;
 }
-.modal-content, #captionTen {
+.modal-content-ten, #captionTen {
   -webkit-animation-name: zoom;
   -webkit-animation-duration: 0.6s;
   animation-name: zoom;
   animation-duration: 0.6s;
 }
-.modal-content, #captionEleven {
+.modal-content-eleven, #captionEleven {
   -webkit-animation-name: zoom;
   -webkit-animation-duration: 0.6s;
   animation-name: zoom;
   animation-duration: 0.6s;
 }
-.modal-content, #captionTwelve {
+.modal-content-twelve, #captionTwelve {
   -webkit-animation-name: zoom;
   -webkit-animation-duration: 0.6s;
   animation-name: zoom;
   animation-duration: 0.6s;
 }
-.modal-content, #captionThirteen {
+.modal-content-thirteen, #captionThirteen {
   -webkit-animation-name: zoom;
   -webkit-animation-duration: 0.6s;
   animation-name: zoom;
   animation-duration: 0.6s;
 }
-.modal-content, #captionFourteen {
+.modal-content-fourteen, #captionFourteen {
   -webkit-animation-name: zoom;
   -webkit-animation-duration: 0.6s;
   animation-name: zoom;
   animation-duration: 0.6s;
 }
-.modal-content, #captionFifteen {
+.modal-content-fifteen, #captionFifteen {
   -webkit-animation-name: zoom;
   -webkit-animation-duration: 0.6s;
   animation-name: zoom;
   animation-duration: 0.6s;
 }
-.modal-content, #captionSixteen {
+.modal-content-sixteen, #captionSixteen {
   -webkit-animation-name: zoom;
   -webkit-animation-duration: 0.6s;
   animation-name: zoom;
   animation-duration: 0.6s;
 }
-.modal-content, #captionSixteen {
+.modal-content-seventeen, #captionSixteen {
   -webkit-animation-name: zoom;
   -webkit-animation-duration: 0.6s;
   animation-name: zoom;
   animation-duration: 0.6s;
 }
-.modal-content, #captionSixteen {
+.modal-content-eighteen, #captionSixteen {
   -webkit-animation-name: zoom;
   -webkit-animation-duration: 0.6s;
   animation-name: zoom;
@@ -1427,15 +1471,3 @@ margin-left:270px;
     width: 100%;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-

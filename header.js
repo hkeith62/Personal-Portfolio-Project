@@ -24,7 +24,7 @@ class Header extends HTMLElement
                   <li class="more">
                       <span><a href="#">Cybersecurity<i class='bx bxs-chevron-right arrow more-arrow'></i></a></span>
                           <ul class="more-sub-menu sub-menu">
-                              <li><a href="documentation.html">Security Documents</a></li>
+                              <li><a href="javascript.html">Security Documents</a></li>
                               <li><a href="reports.html">Reports</a></li>
                               <li><a href="research.html">Research</a></li>
                               <li><a href="projects.html">Projects</a></li>
@@ -32,7 +32,7 @@ class Header extends HTMLElement
                   <li class="more">
                      <span><a href="#">Web Development<i class='bx bxs-chevron-right arrow more-arrow'></i></a></span>
                          <ul class="more-sub-menu sub-menu">
-                             <li><a href="development.html">Javascript</a></li>
+                             <li><a href="javascript.html">Javascript</a></li>
                              <li><a href="angular-typescript.html">Angular & Typescript</a></li>
                              <li><a href="database-diagrams.html">NoSQL Database</a></li>
                              <li><a href="database-diagrams.html">Full-Stack (MEAN)</a></li>
