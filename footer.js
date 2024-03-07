@@ -33,7 +33,7 @@ class Footer extends HTMLElement
                           </div><!-- end .form-body section -->
 
                           <div class="form-footer">
-                              <button type="submit" class="comment-btn"style="padding:12px">Submit Comments</button>
+                              <button type="submit" class="comment-btn"style="padding:16px">Submit Comments</button>
                           </div><!-- end .form-footer section -->
                       </form>
 

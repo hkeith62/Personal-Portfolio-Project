@@ -94,12 +94,6 @@ body {
 	text-decoration: none;
     color: white;
 }
-button{
-    background-color: black;
-    color: #fff;
-    width:5%;
-    cursor: pointer;
-}
 #app-header {
 	padding-top: 80px; /* Adjust up or down */
     text-align:center;
@@ -248,7 +242,7 @@ button{
  }
  
  figure {
-     margin-top: -10px,
+     margin-top: -10px;
  }
 .card-contact {
     margin-left: -90px;  /* Adjusts width of footer card and centers content. */
@@ -362,13 +356,12 @@ button{
 	border: none;
     outline: 0;
     display: inline-block;
-    padding: 8px 8px;
+    padding: 10px 10px;
     color: #094514;
     background-color: #69F483;
     text-align: center;
     cursor: pointer;
 	border-radius: 3px;
-	font-family: Poppins;
 }
 .comment-btn:hover {
 	background-color: #1ff246;
