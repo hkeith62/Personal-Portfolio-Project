@@ -14,7 +14,7 @@ class Head extends HTMLElement
   <meta name="keywords" content="Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.">
   <meta name="robots" content="nofollow">
   <meta name="author" content="Keith Hall"><!-- Nav style sheet -->
-  <link rel="stylesheet" href="./dev-projects/style.css">
+  <link rel="stylesheet" href="site.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
